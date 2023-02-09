@@ -1,0 +1,76 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+}
+.containerportifoliopage{
+    background-color: #2F2E41;
+    width: auto;
+    height: auto;
+}
+.portifolionavbar{
+    display:flex ;
+    background-color: #2F2E41;
+    border-bottom: 3px solid #F5F5F5;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+.portifolioleftside{
+    flex: 3;
+}
+.portifolioleftside h2{
+    color: #CE871C;
+    font-size: 39;
+    font-weight: bold;
+    margin-left: 40px;
+}
+.portifolioaggyh2{
+    color: #CE871C;
+}
+.portifoliorightside{
+    flex: 5;
+}
+ul.menuheader{
+    display: flex;
+}
+li.listitems{
+    margin-left: 50px;
+    list-style: none;
+    margin-top: 5px;
+
+}
+li.listitems a{
+    color: #F5F5F5;
+    text-decoration: none;
+    font-size: 22px;
+}
+li.listitems a:hover{
+    color: #CE871C;
+    font-weight: bold;
+    
+}
+.work1 img{
+    width: 250px;
+    height: 250px;
+}
+.portifoliopic1{
+    display: flex;
+}
+.portifoliopic2{
+    display: flex;
+}
+.portifolio{
+    margin-left:150px;
+
+}
+.portifolio h2{
+    color: #CE871C;
+    font-size: 38px;
+    text-align: center;
+    font-weight: 600;
+}
+.portifolio p{
+    color: #F5F5F5;
+    font-size: 22px;
+    }

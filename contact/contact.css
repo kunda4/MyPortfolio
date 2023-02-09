@@ -1,0 +1,128 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+    color: #F5F5F5;
+}
+.containercontactpage{
+    background-color: #2F2E41;
+    width: auto;
+    height: 656px;
+}
+.contactnavbar{
+    display:flex ;
+    border-bottom: 3px solid #F5F5F5;
+}
+.contactleftside{
+    flex: 3;
+}
+.contactleftside h2{
+    color: #CE871C;
+    font-size: 39;
+    font-weight: bold;
+    margin-left: 40px;
+}
+.contactaggyh2{
+    color: #CE871C;
+}
+.contactrightside{
+    flex: 5;
+}
+ul.menucontact{
+    display: flex;
+}
+li.contactlistitems{
+    margin-left: 50px;
+    list-style: none;
+    margin-top: 5px;
+
+}
+li.contactlistitems a{
+    color: #F5F5F5;
+    text-decoration: none;
+    font-size: 22px;
+}
+li.contactlistitems a:hover{
+    color: #CE871C;
+    font-weight: bold;
+    
+}
+
+.contactmiddleright{
+    position: relative;
+    width: 539px;
+    height: 499px;
+    left: 220px;
+    top: 39px;
+    background: #3F3D56;
+    border-radius: 12px;
+}
+.contactmiddleleft h2{
+    margin-left: 140px;
+    margin-top: 60px;
+    font-size: 38px;
+    font-weight: bold;
+    color: #CE871C;
+}
+.middlecontact{
+    display: flex;
+}
+.contact1{
+    display: flex;
+    margin: 10px;
+    margin-top: 40px;
+    margin-left: 140px;
+}
+.contact1 img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 40px;
+
+}
+form{
+    align-items: center;
+    justify-content: center;
+
+}
+form input{
+    width: 390px;
+    height: 35px;
+    background-color:#2F2E41 ;
+    color: #F5F5F5;
+    margin-left: 70px;
+    border: none;
+    border: 2px solid #F5F5F5;
+  
+}
+form .inptmsg{
+    width: 390px;
+    height: 135px;
+    background-color:#2F2E41 ;
+    color: #F5F5F5;
+    margin-left: 70px;
+    border: none;
+    border: 2px solid #F5F5F5;
+}
+form label{
+    font-size: 22px;
+    margin-left: 70px;
+    
+}
+
+form button{
+    width: 190px;
+height: 42px;
+
+background: #2F2E41;
+border: 3px solid #CE871C;
+border-radius: 8px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+color: #F5F5F5;
+margin-top: 50px;
+margin-left: 170px;
+}

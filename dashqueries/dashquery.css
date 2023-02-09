@@ -1,0 +1,87 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dashboarquerycontainer{
+    width: 100%;
+    height: 656px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: contain;
+}
+.dashboardqueryleft{
+    width: 20%;
+    height: 656px;
+    background-color: #3F3D56;
+}
+.dashboardqueryright{
+    width: 80%;
+    height: 656px;
+    background-color: #2F2E41;
+}
+.dashquerylogo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit:cover;
+    margin-top: 10px;
+    margin-left: 43px;   
+}
+img{
+    width: 40px;
+    height: 40px;
+}
+.dashboardqueryleft ul li{
+    font-size: 24px;
+    list-style: none;
+    margin-top: 7px;
+}
+.dashboardqueryleft ul li a{
+    text-decoration: none;
+    color: #f5f5f5;
+    padding-left: 3px;
+  
+}
+.dashlistqueryadmin{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 33px;
+}
+.dashlistqueryart{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 10px;
+
+}
+.dashlistquerylogout{
+    display: flex;
+    margin-left: 43px;
+    margin-top: 50px;
+}
+
+.dashlistquery{
+    display: flex;
+    margin-top: 20px;
+}
+.dashboardqueryright h2{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 32px;
+    color: #CE871C;
+}
+.dashqueryrightcontainer table,th,td{
+    width: 800px;
+    margin: auto;
+    font-size: 20px;
+    color: #f5f5f5;
+    padding: 5px;
+    text-align: center;
+    border: 2px solid #f5f5f5;
+    border-collapse: collapse;
+}
+.dashqueryrightcontainer table,th{
+    color: #CE871C;
+}
