@@ -129,6 +129,7 @@ body{
 }
 .exp2header{
     display: flex;
+    gap: 20px;
     
 }
 .exp2para{
@@ -167,8 +168,44 @@ body{
 }
 
 @media only screen and (max-width:624px){
+    .containermyskillspage{
+        width: 100%;
+        height: auto;
+    }
     .myskillscontainer{
+        flex-direction: column;
+    }
+    .btnskills{
         display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .exp1{
+        position: relative;
+        right: 44px;
+        width: 320px;
+        flex-direction: column;
+        height: auto;
+    }
+    .exp2{
+        position: relative;
+        right: 44px;
+        width: 320px;
+        height: auto;
+    }
+    .exp2list ul{
+        flex-direction: column;
+        gap: 30px;
+        margin-bottom: 20px ;
+    }
+    .exp2header{
+        flex-direction: column;   
+    }
+    .skillsbutton1{
+        margin-right: 240px;
+    }
+    .skillsbutton2{
+        margin-right: 440px;
     }
 }
 
