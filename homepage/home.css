@@ -170,7 +170,8 @@ color: #F5F5F5;
     }
     .btnhomepage{
         flex-direction: column;
-        gap: 50px;
+        gap: 20px;
+        
     }
     
     .homerightside ul.menuheader{
@@ -194,6 +195,16 @@ color: #F5F5F5;
     .homeleftside{
         display: flex;
         justify-content: space-between;
+    }
+    .homeleftside h2{
+        margin-top: 10px;
+        margin-left: 2px;
+    }
+    .aboutleftmiddlepar{
+        position: relative;
+        right: 299px;
+        width: 350px;
+        height: auto;
     }
     
     }
