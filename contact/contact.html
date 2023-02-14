@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="contact.css">
     <title>My Bland</title>
 </head>
@@ -12,10 +14,11 @@
     <div class="contactnavbar">
         <div class="contactleftside">
             <h2 >Agnes <br>IRADUKUNDA</h2>
+            <i class="fa fa-bars menu" onclick="myFunction();"></i>
         </div>
         <div class="contactrightside">
             <ul class="menucontact">
-                <li class="contactlistitems"><a href="/homepage/home.html">Home</a></li>
+                <li class="contactlistitems"><a href="/homepage/index.html">Home</a></li>
                 <li class="contactlistitems"><a href="/aboutme/about.html">About Me</a></li>
                 <li class="contactlistitems"><a href="/skills/skills.html">Skills</a></li>
                 <li class="contactlistitems"><a href="/blogs/blogs.html">Blogs</a></li>
@@ -57,5 +60,12 @@
         </div>
     </div>
     </div>
+    <script>
+        function myFunction(){
+            let menu = document.querySelector("ul")
+            menu.classList.toggle("active")
+
+        }
+    </script>
 </body>
 </html>

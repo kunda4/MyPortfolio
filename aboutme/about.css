@@ -10,8 +10,15 @@ body{
 }
 .aboutnavbar{
     display:flex ;
+    background-color: #2F2E41;
     border-bottom: 3px solid #F5F5F5;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
 }
+.fa.fa-bars.menu{
+    display: none;
+  }
 .aboutleftside{
     flex: 3;
 }
@@ -25,6 +32,7 @@ body{
 .aboutrightside{
     flex: 5;
 }
+
 ul.aboutmenu{
     display: flex;
 }
@@ -96,7 +104,18 @@ margin-bottom: 0px;
 align-items: center;
 justify-content: center;
 color: #F5F5F5;
-margin-left: 450px;
+margin-left: 500px;
+}
+
+ul.active{
+    transition: all 0.5s ease;
+    text-align: center;
+    width: 320px;
+    height: 360px;
+    left: 42px;
+    gap: 20px;
+    font-size: 32px;
+    font-weight: 600;  
 }
 
 @media (max-width:624px){
@@ -104,6 +123,37 @@ margin-left: 450px;
         background-color: #2F2E41;
         width: 100%;
          height: auto;
+    }
+    .aboutnavbar{
+        flex-direction: column;
+        width: 100%;
+        height: 80px;
+    }
+    .aboutleftside{
+        display: flex;
+        justify-content: space-between;
+    }
+    ul{
+        flex-direction: column;
+        right: -410px;
+        top: 70px;
+        position: relative; 
+        line-height: 30px; 
+        background-color: #3F3D56; 
+        border-radius: 8px;   
+        padding: 10px;  
+
+    }
+    .fa.fa-bars.menu{
+        display: block;
+        font-size: 30px;
+        color: #F5F5F5;
+        margin-top: 20px;
+        margin-right: 15px;
+      }
+      .aboutleftside h2{
+        margin-top: 10px;
+        margin-left: 10px;
     }
     .aboutmiddle{
         flex-direction: column;
@@ -125,7 +175,7 @@ margin-left: 450px;
     }
     .aboutsignupbtn{
         position: relative;
-        right: 419px;
+        right: 469px;
         width: 350px;
         height: auto;
         margin-bottom: 20px;

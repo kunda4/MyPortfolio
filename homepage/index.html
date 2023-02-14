@@ -15,12 +15,13 @@
     <div class="homenavbar">
         <div class="homeleftside">
             <h2 >Agnes <br>IRADUKUNDA</h2>
-            <i class="fa fa-bars menu"></i>
+            <i class="fa fa-bars menu" onclick="myFunction();"></i>
         </div>
+
         <div class="homerightside">
             
             <ul class="menuheader">
-                <li class="listitems"><a class="active" href="">Home</a></li>
+                <li class="listitems"><a href="#">Home</a></li>
                 <li class="listitems"><a href="/aboutme/about.html">About Me</a></li>
                 <li class="listitems"><a href="/skills/skills.html">Skills</a></li>
                 <li class="listitems"><a href="/blogs/blogs.html">Blogs</a></li>
@@ -52,5 +53,12 @@
         <button class="homesignupbtn"><a href="/signup/signup.html">Sign up</a></button>
     </div>
     </div>
+    <script>
+        function myFunction(){
+            let menu = document.querySelector("ul")
+            menu.classList.toggle("active")
+
+        }
+    </script>
 </body>
 </html>

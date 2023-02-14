@@ -65,3 +65,20 @@ form input{
     margin-top: 50px;
     margin-left: 210px;
 }
+@media (max-width:624px){
+    .signupcontainer{
+        width: 390px;
+        top: 132px;
+        left: 10px;
+    }
+    .form input{
+        width: 19px;
+       
+
+    }
+    .signupbutton{
+        position: relative;
+        right: 85px;
+    }
+
+}

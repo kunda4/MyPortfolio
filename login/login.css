@@ -70,3 +70,21 @@ form input{
     margin-top: 50px;
     margin-left: 210px;
 }
+
+@media (max-width:624px){
+    .logincontainer{
+        width: 390px;
+        top: 132px;
+        left: 10px;
+    }
+    .form input{
+        width: 219px;
+       
+
+    }
+    .loginbutton{
+        position: relative;
+        right: 85px;
+    }
+
+}
