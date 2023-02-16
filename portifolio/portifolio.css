@@ -63,6 +63,10 @@ li.listitems a:hover{
     width: 340px;
     height: 250px;
 }
+.work1 img:hover{
+    transform: scale(0.97);
+}
+
 .work1 p{
     text-align: center;
 }

@@ -13,15 +13,18 @@
         <h4 class="signupfor2"><a href="/login/login.html">Login here</a></h4>
 
         <form action="">
-            <input type="text" placeholder="Enter your Fullname">
-            <input type="email" placeholder="Enter your email"> 
-            <input type="password" placeholder="Enter your password">
-            <button class="signupbutton" type="button"><a href="/login/login.html">Sign Up</a></button>
+            <input class="signupinpt" required type="text" 
+           autofocus id="fullName" placeholder="Enter your Fullname">
+            <input class="signupinpt" required  type="email" autofocus id="email" placeholder="Enter your email"> 
+            <input class="signupinpt" required  type="password" autofocus id="pass" placeholder="Enter your password">
+            <input class="signupinpt" required  type="password" autofocus id="cpass" placeholder="Confirm password">
+            <div class="submit_button">
+            <button  class="signupbutton" type="button">Sign Up</button>
+            </div>
         </form>
 
     </div>
-</head>
-<body>
+    <Script src="signup.js"></Script>
     
 </body>
 </html>

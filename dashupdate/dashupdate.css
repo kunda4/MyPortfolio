@@ -21,6 +21,9 @@ body{
     height: 656px;
     background-color: #2F2E41;
 }
+.fa.fa-bars.menu{
+    display: none;
+  }
 .dashupdatelogo{
     width: 100px;
     height: 100px;
@@ -85,4 +88,49 @@ img{
 }
 .dashupdaterightcontainer table,th{
     color: #CE871C;
+}
+
+.dashboardupdateleft.active{
+    transition: all 0.5s ease;
+    left: 687px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+@media screen and (max-width:624px){
+    .dashboardupdateleft{
+        width: 270px;
+        height: auto;
+        background-color: #3F3D56;
+        position: fixed; 
+        margin-left: -718px;
+        line-height: 10px; 
+        background-color: #3F3D56; 
+        border-radius: 8px;   
+        padding: 5px; 
+        z-index: 999;
+       }
+       .fa.fa-bars.menu{
+        display: block;
+        float: right;
+        font-size: 30px;
+        color: #F5F5F5;
+        margin-top: 10px;
+        margin-right: 10px;
+      }
+      .dashboardupdateright{
+        width: 100%;     
+    }
+    .dashupdaterightcontainer table,th,td{
+        width: 350px;
+        height: auto;
+        font-size: 18px;
+        padding: 3px;
+        border: 1px solid #f5f5f5;
+      }
+      img{
+        width: 30px;
+        height: 30px;
+    }
 }

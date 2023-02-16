@@ -56,7 +56,8 @@ li.listitems a:hover{
 .myblogs{
     color: #F5F5F5;
     margin-top: 80px;
-   
+    margin-left: 50px;
+  
 }
 .blogsone{
     display: flex;

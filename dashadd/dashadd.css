@@ -16,6 +16,10 @@ body{
     height: 656px;
     background-color: #3F3D56;
 }
+
+.fa.fa-bars.menu{
+    display: none;
+  }
 .dashboardaddright{
     width: 77%;
     height: 656px;
@@ -135,3 +139,60 @@ color: #F5F5F5;
 margin-top: 50px;
 margin-left: 170px;
 }
+.dashboardaddleft.active{
+    transition: all 0.5s ease;
+    left: 687px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 300;
+   
+}
+@media screen and (max-width:624px){
+    .dashboardaddleft{
+        width: 270px;
+        height: auto;
+        background-color: #3F3D56;
+        position: fixed; 
+        margin-left: -718px;
+        line-height: 10px; 
+        background-color: #3F3D56; 
+        border-radius: 8px;   
+        padding: 5px; 
+        z-index: 999;
+       }
+       .fa.fa-bars.menu{
+        display: block;
+        float: right;
+        font-size: 30px;
+        color: #F5F5F5;
+        margin-top: 10px;
+        margin-right: 10px;
+      }
+      .dashboardaddright{
+        width: 410px;     
+    }
+      .dashaddrightcontainer{
+        width: 350px;
+        height: auto;
+        left: 30px;
+      }
+      .addtitle label{
+        margin-left: -40px;
+      }
+      .addtitle input{
+        width: 280px;
+        height: 40px;
+      }
+      .adddescription label{
+        margin-left: 50px;
+      }
+      form .adddescription input{
+        width: 280px;
+        height: 140px;
+      }
+      form button{
+        position: relative;
+        right: 80px;
+        margin-bottom: 15px;
+      }
+    }       

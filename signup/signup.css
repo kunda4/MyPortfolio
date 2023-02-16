@@ -6,7 +6,7 @@ body{
 }
 .signupcontainer{
     width: 600px;
-    height: 500px;
+    height: 550px;
     background-color: #3F3D56;
     position: relative;
     top: 60px;
@@ -45,6 +45,7 @@ form input{
     color: #F5F5F5;
     font-size: 18px;
 }
+
 .signupbutton a{
     color: #f5f5f5;
     text-decoration: none;
@@ -71,8 +72,8 @@ form input{
         top: 132px;
         left: 10px;
     }
-    .form input{
-        width: 19px;
+    .signupinpt{
+        width: 319px;
        
 
     }
