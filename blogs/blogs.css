@@ -51,13 +51,17 @@ li.listitems a:hover{
     font-weight: bold;
 }
 .myblogs{
-    display: flex;
     color: #F5F5F5;
-    align-items: center;
-    justify-content: center;
     margin-top: 80px;
-   
-
+    margin-top: 50px;
+}
+.blogsone{
+    display: flex;
+    flex-direction: row;
+}
+.blogstwo{
+    display: flex;
+    flex-direction: row;
 }
 .blogs1{
     width: 550px;
@@ -85,5 +89,26 @@ li.listitems a:hover{
 .blogbutton a{
     text-decoration: none;
     color: #F5F5F5;
+}
+
+@media (max-width:624px){
+    .containerblogs{
+        width: 100%;
+        height: auto;
+    }
+    .blogsone{
+        flex-direction: column;
+    }
+    .blogstwo{
+        flex-direction: column;
+    }
+    .blogs1{
+        position: relative;
+        right: 26px;
+        width: 290px;
+        height: auto;
+    }
+    
+
 }
 

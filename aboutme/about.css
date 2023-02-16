@@ -55,7 +55,7 @@ font-style: normal;
 font-weight: 600;
 font-size: 26px;
 color: #F5F5F5;
-border: 3px solid #F5F5F5;
+border: 2px solid #F5F5F5;
 width: 458px;
 height: 306px;
 border-radius: 28px;
@@ -71,15 +71,16 @@ margin-left: 20px ;
 .aboutsoftwareh2{
    color: #F5F5F5;
    text-align: center;
-   margin-top: 57px;
-   margin-bottom: 51px;
+   margin-top: 37px;
+   margin-bottom: 31px;
 }
 
 
 .aboutrightmiddle img{
     width: 260px;
     height: 330px;
-    margin-left: 330px;
+    margin-left: 230px;
+    border-radius: 15px;
 }
 .aboutsignupbtn{
     width: 254px;
@@ -91,10 +92,43 @@ font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
 font-size: 22px;
-margin-bottom: 10px;
+margin-bottom: 0px;
 align-items: center;
 justify-content: center;
 color: #F5F5F5;
-margin-left: 550px;
+margin-left: 450px;
+}
+
+@media (max-width:624px){
+    .containeraboutpage{
+        background-color: #2F2E41;
+        width: 100%;
+         height: auto;
+    }
+    .aboutmiddle{
+        flex-direction: column;
+        margin-top: 28px;
+       
+    }
+    .aboutleftmiddle{
+        position: relative;
+        right: 85px;
+        width: 350px;
+        height: auto;
+
+    }
+    .aboutrightmiddle img{
+        position: relative;
+        right: 299px;
+        width: 350px;
+        height: auto;
+    }
+    .aboutsignupbtn{
+        position: relative;
+        right: 419px;
+        width: 350px;
+        height: auto;
+        margin-bottom: 20px;
+    }
 }
 
