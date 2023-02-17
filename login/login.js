@@ -22,5 +22,6 @@ else if(emailAddress == Email && passWord == Password){
 }  
 else {
     alert("Your Email or Password are incorect");
+    Go
 }
 }
