@@ -10,7 +10,6 @@ body{
 }
 .homenavbar{
     display:flex ;
-   /* border-bottom: 3px solid #F5F5F5;  */
     background-color: #2F2E41;
     overflow: hidden;
 }
