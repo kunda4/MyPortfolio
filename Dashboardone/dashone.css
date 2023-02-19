@@ -12,12 +12,15 @@ body{
     object-fit: contain;
 }
 .dashboardoneleft{
-    width: 25%;
+    width: 23%;
     height: 656px;
     background-color: #3F3D56;
 }
+.fa.fa-bars.menu{
+    display: none;
+  }
 .dashboardoneright{
-    width: 75%;
+    width: 77%;
     height: 656px;
     background-color: #2F2E41;
 }
@@ -26,7 +29,7 @@ body{
     height: 100px;
     border-radius: 50%;
     object-fit:cover;
-    margin-top: 10px;
+    margin-top: 1px;
     margin-left: 65px;   
 }
 img{
@@ -82,8 +85,9 @@ img{
 }
 .dash{
     width: 220px;
-    height: 100px;
+    height: 150px;
     background-color: #2F2E41;
+
 
 }
 .dash p{
@@ -93,10 +97,87 @@ img{
     
 }
 
-
-.dashrightcontainer{
+.dashtop{
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    gap: 160px;
+    top: 50px;
 }
+
+.dashdown{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 160px;
+    margin-top: 110px;
+}
+.dashboardoneleft.active{
+    transition: all 0.5s ease;
+    left: 687px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 300;
+   
+}
+@media screen and (max-width:624px){
+    .dashboardoneleft{
+        width: 270px;
+        height: auto;
+        background-color: #3F3D56;
+        position: fixed; 
+        margin-left: -718px;
+        line-height: 10px; 
+        border-radius: 8px;   
+        padding: 5px; 
+        z-index: 999;
+       }
+   
+       .fa.fa-bars.menu{
+        display: block;
+        float: right;
+        font-size: 30px;
+        color: #F5F5F5;
+        margin-top: 10px;
+        margin-right: 10px;
+      }
+      
+      .dashboardoneright{
+        width: 100%;
+        height: auto;
+        background-color: #2F2E41       
+    }
+    .dashrightcontainer{
+        width: 292px;
+        height: auto;
+        left: 46px;
+    }
+    .dashtop{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .dashdown{
+        position: relative;
+        top: -38px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .dash h2{
+        position: relative;
+        top: -50px;
+    }
+    .dash p{
+        position: relative;
+        top: -50px;
+    }
+    .dash{
+        width: 190px;
+        height: 100px;
+        background-color: #2F2E41;
+    
+    
+    }
+}
+
+

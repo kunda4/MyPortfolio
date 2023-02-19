@@ -6,7 +6,7 @@ body{
 }
 .signupcontainer{
     width: 600px;
-    height: 500px;
+    height: 550px;
     background-color: #3F3D56;
     position: relative;
     top: 60px;
@@ -45,6 +45,7 @@ form input{
     color: #F5F5F5;
     font-size: 18px;
 }
+
 .signupbutton a{
     color: #f5f5f5;
     text-decoration: none;
@@ -64,4 +65,21 @@ form input{
     color: #F5F5F5;
     margin-top: 50px;
     margin-left: 210px;
+}
+@media (max-width:624px){
+    .signupcontainer{
+        width: 390px;
+        top: 132px;
+        left: 10px;
+    }
+    .signupinpt{
+        width: 319px;
+       
+
+    }
+    .signupbutton{
+        position: relative;
+        right: 85px;
+    }
+
 }
