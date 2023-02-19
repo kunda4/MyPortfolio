@@ -15,7 +15,7 @@
     <div class="homenavbar">
         <div class="homeleftside">
             <h2 >Agnes <br>IRADUKUNDA</h2>
-            
+            <i class="fa fa-bars menu" onclick="myFunction();"></i>
         </div>
 
         <div class="homerightside">
@@ -53,7 +53,12 @@
         <button class="homesignupbtn"><a href="/signup/signup.html">Sign up</a></button>
     </div>
     </div>
+    <script>
+        function myFunction(){
+            let menu = document.querySelector("ul")
+            menu.classList.toggle("active")
 
-    
+        }
+    </script> 
 </body>
 </html>
