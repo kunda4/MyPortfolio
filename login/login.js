@@ -19,8 +19,10 @@ if(emailAddress == "" && passWord == "" ){
 }
 else if(emailAddress == Email && passWord == Password){
     alert("Login Successfully");
+    window.location = "/Dashboardone/dashone.html";
 }  
 else {
     alert("Your Email or Password are incorect");
 }
+
 }

@@ -16,7 +16,7 @@
                 <img class="dashcommentlogo" src="/images/WhatsApp Image 2022-12-05 at 16.31.47.jpeg" alt="">
                 <div class="dashlistcommentadmin">
                 <img src="/images/material-symbols_dashboard-customize-outline.png" alt="">
-                <li><a href="#">Admin</a></li>
+                <li><a href="/Dashboardone/dashone.html">Admin</a></li>
                 </div>
                 <div class="dashlistcomment">
                 <img src="/images/ic_outline-query-stats.png" alt="">
@@ -32,11 +32,7 @@
                 </div>
                 <div class="dashlistcommentart">
                 <img src="/images/dashicons_update.png" alt="">
-                <li><a href="/dashupdate/dashupdate.html">Update Article</a></li>
-                </div>
-                <div class="dashlistcommentart">
-                <img src="/images/material-symbols_delete-forever.png" alt="">
-                <li><a href="/dashupdate/dashupdate.html">Delete Article</a></li>
+                <li><a href="/dashupdate/dashupdate.html">Manage Article</a></li>
                 </div>
                 <div class="dashlistcomment">
                 <img src="/images/material-symbols_add-comment-outline.png" alt="">
@@ -44,7 +40,7 @@
                 </div>
                 <div class="dashlistcommentlogout">
                 <img src="/images/ri_logout-circle-r-line.png" alt="">
-                <li><a href="/homepage/index.html">Logout</a></li>
+                <li><a href="/index.html">Logout</a></li>
                 </div>
             </ul>
 
@@ -60,38 +56,17 @@
                         <th>Comment</th>
                         <th>Delete</th>
                     </tr>
-                    <tr>
+                    <tr> 
                         <td>1</td>
                         <td>Rita Ora</td>
                         <td>Write good blogs and they could land you 
                             on the radar of a popular blogger</td>
                         <td><img src="/images/Vector (1).png" alt=""></td>
                     </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Anna Mika</td>
-                        <td>Write good blogs and they could land you 
-                            on the radar of a popular blogger</td>
-                        <td><img src="/images/Vector (1).png" alt=""></td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>Tom Avri</td>
-                        <td>Write good blogs and they could land you 
-                            on the radar of a popular blogger</td>
-                        <td><img src="/images/Vector (1).png" alt=""></td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>Luc Ellen</td>
-                        <td>Write good blogs and they could land you 
-                            on the radar of a popular blogger</td>
-                        <td><img src="/images/Vector (1).png" alt=""></td>
-                    </tr>
-
+                    <tbody id="Commentid"></tbody>    
                 </table>
                 
-            </div>
+            </div> 
         </div>
     </div>
     <script>
@@ -100,6 +75,7 @@
             menu.classList.toggle("active")
         }
     </script>
+    <script src="/dashcomments/dashcomment.js"></script>
     
 </body>
 </html>

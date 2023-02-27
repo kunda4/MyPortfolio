@@ -27,5 +27,6 @@ else if(pass !== cpass){
 }
 else {
     alert('registration Successfully');
+    window.location = "/login/login.html";
 }
 }
