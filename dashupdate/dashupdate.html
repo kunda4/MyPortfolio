@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="dashupdate.css">
     <title>My Dashboard</title>
 </head>
@@ -48,6 +50,7 @@
 
         </div>
         <div class="dashboardupdateright">
+            <i class="fa fa-bars menu" onclick="myFunction();"></i>
             <h2>DASHBOARD</h2>
             <div class="dashupdaterightcontainer">
                 <table>
@@ -59,7 +62,7 @@
                     </tr>
                     <tr>
                         <td>1</td>
-                        <td>What is New in a Tech World?</td>
+                        <td>What is New in Tech World?</td>
                         <td>2022-12-05 <br>15:32:00</td>
                         <td><img src="/images/Vector (1).png" alt="">
                         <img src="/images/Vector.png" alt=""></td>
@@ -87,7 +90,7 @@
                     </tr>
                     <tr>
                         <td>5</td>
-                        <td>What is New in a Tech World?</td>
+                        <td>What is New in Tech World?</td>
                         <td>2022-12-05 <br>15:32:00</td>
                         <td><img src="/images/Vector (1).png" alt="">
                         <img src="/images/Vector.png" alt=""></td>
@@ -104,6 +107,11 @@
             </div>
         </div>
     </div>
-    
+    <script>
+        function myFunction(){
+            let menu = document.querySelector(".dashboardupdateleft")
+            menu.classList.toggle("active")
+        }
+    </script>
 </body>
 </html>

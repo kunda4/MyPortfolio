@@ -48,6 +48,7 @@ form input{
 .signuplinkforlogin a{
     color: #f5f5f5;
     text-decoration: none;
+    
 }
 .loginbutton a{
     color: #f5f5f5;
@@ -69,4 +70,27 @@ form input{
     color: #F5F5F5;
     margin-top: 50px;
     margin-left: 210px;
+}
+
+@media (max-width:624px){
+    .logincontainer{
+        width: 390px;
+        top: 132px;git 
+        left: 10px;
+    }
+    .logininpt{
+        width: 319px;
+    }
+    .headerlogin{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 18px;
+    }
+    .loginbutton{
+        position: relative;
+        right: 85px;
+    }
+
 }
