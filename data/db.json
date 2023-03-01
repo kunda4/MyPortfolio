@@ -16,8 +16,8 @@
       "id": 15
     },
     {
-      "Title": "Kunda",
-      "Description": "Kunda Tech hhh",
+      "Title": "Kunda Tech Ltd",
+      "Description": "Kunda TechLtd is the company work on IoT And SoD",
       "id": 16
     },
     {
@@ -39,6 +39,11 @@
       "Title": "Learn Difference between JS and TS",
       "Description": "JavaScript (JS) and TypeScript (TS) are both programming languages used for web development. However, there are some key differences between them:  Static Typing: TypeScript is a statically typed language, which means that you have to declare the types of variables and function parameters. JavaScript, on the other hand, is a dynamically typed language, which means that the types of variables are inferred at runtime.  Type annotations: TypeScript requires type annotations for variables, parameters, and functions. These annotations help to catch errors early in the development process, which can save time and effort in debugging. In JavaScript, you can use JSDoc annotations to add type information, but they are not required.  Compilation: TypeScript code must be compiled into JavaScript before it can be executed. This compilation step adds an extra layer of verification and optimization to the code, which can improve performance and catch errors earlier. JavaScript code can be executed directly in a web browser or node.js environment.  Object-Oriented Programming: TypeScript is designed to support object-oriented programming (OOP) concepts such as classes, interfaces, and inheritance. JavaScript also supports OOP, but its implementation is more flexible and less structured.  Code readability and maintainability: TypeScript's static typing and code structure can make it easier to read and maintain large codebases, especially when working in a team environment. JavaScript's more flexible structure can make it easier to write code quickly, but can also make it harder to maintain over time.  In summary, TypeScript is a statically typed language that requires type annotations and compilation, designed to support object-oriented programming concepts. JavaScript is a dynamically typed language with a more flexible structure, making it easier to write code quickly, but can be harder to maintain over time.",
       "id": 20
+    },
+    {
+      "Title": "Kunda Tech Ltd",
+      "Description": "Kunda TechLtd is the company work on IoT And SoD",
+      "id": 21
     }
   ],
   "Querries": [
@@ -71,6 +76,12 @@
       "Email": "user1@gmail.com",
       "Message": "It's Possible to meet with u?",
       "id": 12
+    },
+    {
+      "Name": "Etan Mbappe",
+      "Email": "user1@gmail.com",
+      "Message": "It's Possible to meet with u?",
+      "id": 13
     }
   ],
   "Comments": [
@@ -113,11 +124,6 @@
       "Name": "Lionel Andres Messi Cuccittini",
       "Comment": "so amazing",
       "id": 13
-    },
-    {
-      "Name": "IRADUKUNDA Agnes",
-      "Comment": "so amazing",
-      "id": 14
     }
   ]
 }
