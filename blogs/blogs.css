@@ -60,8 +60,8 @@ li.listitems a:hover{
   
 }
 .blogsone{
-    display: flex;
-    flex-direction: row;
+   display: flex;
+   flex-wrap: wrap;    
 }
 .blogstwo{     
     display: flex;

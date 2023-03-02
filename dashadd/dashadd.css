@@ -50,20 +50,20 @@ img{
 }
 .dashlistaddadmin{
     display: flex;
-    margin-top: 5px;
-    margin-bottom: 30px;
-    margin-left: 33px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 43px;
 }
 .dashlistaddart{
     display: flex;
     margin-top: 15px;
-    margin-left: 10px;
+    margin-left: 20px;
 
 }
 .dashlistaddlogout{
     display: flex;
-    margin-left: 33px;
-    margin-top: 30px;
+    margin-left: 43px;
+    margin-top: 50px;
 }
 
 .dashlistadd{

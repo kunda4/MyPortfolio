@@ -1,0 +1,124 @@
+{
+  "blogContainer": [
+    {
+      "Title": "Technology In Our Life Today And How It Has Changed",
+      "Description": "Over the years, technology has revolutionized our world and daily lives. Additionally, technology for seniors has created amazing tools and resources, putting useful information at our fingertips.  Modern technology has paved the way for multi-functional devices like the smartwatch and the smartphone. Computers are increasingly faster, more portable, and higher-powered than ever before. With all of these revolutions, technology has also made our lives easier, faster, better, and more fun.",
+      "id": 9
+    },
+    {
+      "Title": "Imagination",
+      "Description": "Imagination is the ability to form mental images, concepts, and ideas in one's mind, without the need for sensory input from the environment. It is the process of creating new and unique ideas, visualizing things that do not exist, and exploring possibilities beyond the limitations of reality. Imagination involves using the power of the mind to generate images, sounds, sensations, and emotions that are not present in the physical world.  Imagination is a vital human ability that allows us to be creative, solve problems, and think critically. It is the foundation of art, literature, and music, as well as scientific and technological innovation. Through imagination, we can envision the future, imagine different perspectives, and empathize with others.",
+      "id": 14
+    },
+    {
+      "Title": "is coding a passion?",
+      "Description": "Coding can certainly be a passion for some people. Many programmers find joy and fulfillment in the process of creating software and solving problems with code. ",
+      "id": 15
+    },
+    {
+      "Title": "Kunda Tech Ltd",
+      "Description": "Kunda TechLtd is the company work on IoT And SoD",
+      "id": 16
+    },
+    {
+      "Title": "TECH WORLD",
+      "Description": "Nowadayz Technology",
+      "id": 17
+    },
+    {
+      "Title": "heytech og",
+      "Description": "Nowadayz Technology orginal",
+      "id": 18
+    },
+    {
+      "Title": "Inama y umunsi ",
+      "Description": "Uwiteka ni imbaraga zanjye n’indirimbo yanjye, Ampindukiye agakiza. Uwo ni we Mana yanjye, nanjye ndayihimbaza, Ni yo Mana ya data, nanjye ndayishyira hejuru.",
+      "id": 19
+    },
+    {
+      "Title": "Learn Difference between JS and TS",
+      "Description": "JavaScript (JS) and TypeScript (TS) are both programming languages used for web development. However, there are some key differences between them:  Static Typing: TypeScript is a statically typed language, which means that you have to declare the types of variables and function parameters. JavaScript, on the other hand, is a dynamically typed language, which means that the types of variables are inferred at runtime.  Type annotations: TypeScript requires type annotations for variables, parameters, and functions. These annotations help to catch errors early in the development process, which can save time and effort in debugging. In JavaScript, you can use JSDoc annotations to add type information, but they are not required.  Compilation: TypeScript code must be compiled into JavaScript before it can be executed. This compilation step adds an extra layer of verification and optimization to the code, which can improve performance and catch errors earlier. JavaScript code can be executed directly in a web browser or node.js environment.  Object-Oriented Programming: TypeScript is designed to support object-oriented programming (OOP) concepts such as classes, interfaces, and inheritance. JavaScript also supports OOP, but its implementation is more flexible and less structured.  Code readability and maintainability: TypeScript's static typing and code structure can make it easier to read and maintain large codebases, especially when working in a team environment. JavaScript's more flexible structure can make it easier to write code quickly, but can also make it harder to maintain over time.  In summary, TypeScript is a statically typed language that requires type annotations and compilation, designed to support object-oriented programming concepts. JavaScript is a dynamically typed language with a more flexible structure, making it easier to write code quickly, but can be harder to maintain over time.",
+      "id": 20
+    },
+    {
+      "Title": "Kunda Tech Ltd",
+      "Description": "Kunda TechLtd is the company work on IoT And SoD",
+      "id": 21
+    }
+  ],
+  "Querries": [
+    {
+      "Name": "tom",
+      "Email": "kundaaggy@gmail.com",
+      "Message": "We need more article based on IoT",
+      "id": 8
+    },
+    {
+      "Name": "Anna",
+      "Email": "ann@gmail.com",
+      "Message": "It's Possible to meet with u?",
+      "id": 9
+    },
+    {
+      "Name": "Lionel Andres Messi Cuccittini",
+      "Email": "user1@gmail.com",
+      "Message": "We need more article based on IoT",
+      "id": 10
+    },
+    {
+      "Name": "Etan Mbappe",
+      "Email": "user1@gmail.com",
+      "Message": "It's Possible to meet with u?",
+      "id": 11
+    },
+    {
+      "Name": "Lionel Andres Messi Cuccittini",
+      "Email": "user1@gmail.com",
+      "Message": "It's Possible to meet with u?",
+      "id": 12
+    },
+    {
+      "Name": "Etan Mbappe",
+      "Email": "user1@gmail.com",
+      "Message": "It's Possible to meet with u?",
+      "id": 13
+    }
+  ],
+  "Comments": [
+    {
+      "Name": "IRADUKUNDA Agnes",
+      "Comment": "Hello",
+      "id": 7
+    },
+    {
+      "Name": "kylian Mbape",
+      "Comment": "so amazing",
+      "id": 8
+    },
+    {
+      "Name": "Lionel Andres Messi Cuccittini",
+      "Comment": "Awesome ",
+      "id": 9
+    },
+    {
+      "Name": "Neymar Jr",
+      "Comment": "Wonderful ",
+      "id": 10
+    },
+    {
+      "Name": "Etan Mbappe",
+      "Comment": "Nice one",
+      "id": 11
+    },
+    {
+      "Name": "Anna",
+      "Comment": "Wonderful ",
+      "id": 12
+    },
+    {
+      "Name": "Lionel Andres Messi Cuccittini",
+      "Comment": "so amazing",
+      "id": 13
+    }
+  ]
+}

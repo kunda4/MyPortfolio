@@ -12,13 +12,18 @@ body{
     object-fit: contain;
 }
 .dashboardqueryleft{
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 23%;
-    height: 656px;
+    height: 100vh;
     background-color: #3F3D56;
 }
 .dashboardqueryright{
     width: 77%;
-    height: 656px;
+    height: 100%;
+    position: relative;
+    left: 155px;
     background-color: #2F2E41;
 }
 .fa.fa-bars.menu{
@@ -46,23 +51,22 @@ img{
     color: #f5f5f5;
     padding-left: 3px;
   
-}
-.dashlistqueryadmin{
+}.dashlistqueryadmin{
     display: flex;
-    margin-top: 5px;
-    margin-bottom: 30px;
-    margin-left: 33px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 43px;
 }
 .dashlistqueryart{
     display: flex;
     margin-top: 15px;
-    margin-left: 10px;
+    margin-left: 20px;
 
 }
 .dashlistquerylogout{
     display: flex;
     margin-left: 43px;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .dashlistquery{
