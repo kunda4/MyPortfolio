@@ -15,7 +15,7 @@ const postComment = async (e) =>{
 }
 FormAdd && FormAdd.addEventListener("submit",postComment);
 
-const fetchBlog = async () => {
+const fetchComment = async () => {
     const response = await fetch("http://localhost:3000/Comments");
     const Comments = await response.json();
     const CmntContainer = document.getElementById("Commentid");
@@ -34,12 +34,38 @@ const fetchBlog = async () => {
    if (CmntContainer) CmntContainer.innerHTML = templete;
 
 }
+// on client side
+
+const fetchCommentt = async () => {
+    const response = await fetch("http://localhost:3000/Comments");
+    const Comments = await response.json();
+    const CmntContainer = document.querySelector(".blogsdetailscomment");
+
+   let templete = "";
+   Comments.forEach((comnt) =>{
+    console.log(comnt.Name);
+    templete +=`
+
+    <div class="blogsdetailscomment">
+        <h3>${comnt.Name}</h3>
+        <p>${comnt.Comment}</p>
+    </div>
+
+    `
+   })
+   if (CmntContainer) CmntContainer.innerHTML = templete;
+
+}
+fetchCommentt();
 
 const deleteComment = async(comnt_id)=>{
     await fetch(`http://localhost:3000/Comments/${comnt_id}`,{
 
         method: "DELETE",
     })
+    return confirm("are you sure you want to delete this comments?");
+   
+    
 }
 
-window.addEventListener("DOMContentLoaded", () => fetchBlog());
+window.addEventListener("DOMContentLoaded", () => fetchComment());

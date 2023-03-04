@@ -53,8 +53,8 @@
     </div>
     <div class="likeandcomment">
         <div class="likeonly">
-             <img src="/images/uiw_like-o.png" alt="">
-             <h3>107K</h3>
+             <span id="icon"></span><img src="/images/uiw_like-o.png" alt=""></span>
+             <span id="count">0</span>
         </div>
         <div class="commentonly">
             <img src="/images/material-symbols_comment-outline.png" alt="">
@@ -63,8 +63,8 @@
     </div>
     <h3 class="detailscommenttitle1">Leave your comment here</h3>
     <form action="" class="blogsdetailstypecommnt" id="NewForm3">
-    <input class="typename" type="text" placeholder="Write your name" id="commentname">
-    <input class="typecomment" type="text" placeholder="Write your comment" id="commentmessage">
+    <input class="typename" type="text" placeholder="Write your name" id="commentname" required>
+    <input class="typecomment" type="text" placeholder="Write your comment" id="commentmessage" required>
     <button type="submit" class="leavecommentblogsbtn">Post</button>
     </form>
     <h3 class="detailscommenttitle2">Recent Comments</h3>
@@ -75,12 +75,7 @@
             Non nobis labore, delectus et laborum eaque molestiae, 
             voluptas.</p>
     </div>
-    <div class="blogsdetailscomment">
-        <h3>Name</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-            Non nobis labore, delectus et laborum eaque molestiae, 
-            voluptas</p>
-    </div>
+   
     </div>
     
 
@@ -93,5 +88,6 @@
         }
     </script>
     <script src="/dashcomments/dashcomment.js"></script>
+    <script src="/BlogsDetails/likes.js"></script>
 </body>
 </html>

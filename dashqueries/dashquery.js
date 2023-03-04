@@ -18,7 +18,7 @@ const postContact = async (e) =>{
 FormAdd && FormAdd.addEventListener("submit",postContact);
 
     
-const fetchBlog = async () => {
+const fetchQuerry = async () => {
     const response = await fetch("http://localhost:3000/Querries");
     const Querries = await response.json();
     const ContactContainer = document.getElementById("Contactid");
@@ -45,6 +45,7 @@ const deleteContact = async(Contact_id)=>{
 
         method: "DELETE",
     })
+    return confirm("are you sure you want to delete this comments?");
 }
 
- window.addEventListener("DOMContentLoaded", () => fetchBlog());
+ window.addEventListener("DOMContentLoaded", () => fetchQuerry());
