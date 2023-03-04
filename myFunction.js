@@ -69,6 +69,8 @@ const deleteBlog = async(Blog_id)=>{
 
         method: "DELETE",
     })
+    return confirm("are you sure you want to delete this comments?");
+    
 }
 
 const modalBox = document.getElementById("modalBox");

@@ -92,6 +92,11 @@ img{
     display: flex;
     margin-left: 400px;
 }
+#count{
+    font-size: 35px;
+    margin-top: 8px;
+    padding: 4px;
+}
 .commentonly{
     display: flex;
     margin-right: 400px;
@@ -142,11 +147,12 @@ img{
     margin-left: 289px;
 }
 .blogsdetailscomment p{
-    width: 559px;
-    height: 94px;
+    width: 559px;       
+    height: auto;
+    text-align: center;
     background-color: #3F3D56;
     font-size: 24px;
-    border-radius: 8px;
+    border-radius: 12px;
     margin-left: 289px;
     padding: 5px;
 }
