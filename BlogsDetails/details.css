@@ -116,14 +116,16 @@ img{
     width: 559px;
     height: 34px;
     font-size: 18px;
+    margin-top: 30px;
     border-radius: 8px;
     background-color: #3F3D56;
     border: none;
     color: #F5F5F5;
 }
-.blogsdetailstypecommnt input.typecomment{
+.blogsdetailstypecommnt textarea.typecomment{
     width: 559px;
     height: 134px;
+    margin-top: 30px;
     font-size: 18px;
     border-radius: 8px;
     background-color: #3F3D56;
@@ -133,6 +135,8 @@ img{
 .leavecommentblogsbtn{
     width: 124px;
     height: 34px;
+    margin-top: 10px;
+    margin-bottom: 20px;
     font-size: 28px;
     border-radius: 8px;
     background-color: #2F2E41;
@@ -143,13 +147,12 @@ img{
 }
 .detailscommenttitle2{
     font-size: 32px;
-    margin-top: 20px;
+    margin-top: 0px;
     margin-left: 289px;
 }
 .blogsdetailscomment p{
     width: 559px;       
     height: auto;
-    text-align: center;
     background-color: #3F3D56;
     font-size: 24px;
     border-radius: 12px;
@@ -157,7 +160,7 @@ img{
     padding: 5px;
 }
 .blogsdetailscomment h3{
-    font-size: 32px;
+    font-size: 18px;
     margin-left: 289px;
     color: #CE871C;
 }

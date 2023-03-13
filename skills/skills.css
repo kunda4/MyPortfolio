@@ -114,6 +114,12 @@ body{
     color: #CE871C;
     
 }
+.profexp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .exp1{
     display: flex;
     width: 1163px;
@@ -125,7 +131,6 @@ body{
     padding-left: 40px;
     padding-right: 40px;
     text-align: center;
-    margin-left: 50px;
     font-size: 28px;
     font-weight: 600;
     margin-bottom: 30px;
@@ -152,7 +157,6 @@ body{
     padding-left: 40px;
     padding-right: 40px;
     text-align: center;
-    margin-left: 50px;
     font-size: 28px;
     font-weight: 600;
     margin-bottom: 80px;

@@ -72,14 +72,15 @@ li.listitems a:hover{
 }
 .portifoliopic1{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .portifoliopic2{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.portifolio{
-    margin-left:110px;
 
-}
 .portifolio h2{
     color: #CE871C;
     font-size: 38px;
