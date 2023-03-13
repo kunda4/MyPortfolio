@@ -7,7 +7,7 @@ body{
 .containercontactpage{
     background-color: #2F2E41;
     width: 100%;
-    height: 657px;
+    height: 100vh;
 }
 .contactnavbar{
     display:flex ;
@@ -60,12 +60,12 @@ li.contactlistitems a:hover{
     width: 539px;
     height: 499px;
     left: 220px;
-    top: 39px;
+    top: 99px;
     border-radius: 12px;
 }
 .contactmiddleleft h2{
     margin-left: 140px;
-    margin-top: 60px;
+    margin-top: 99px;
     font-size: 38px;
     font-weight: bold;
     color: #CE871C;
@@ -94,7 +94,7 @@ form{
     height: 450px;  
 
 }
-form input{
+form input.inptcontact{
     width: 390px;
     height: 35px;
     background-color:#2F2E41 ;
@@ -104,7 +104,7 @@ form input{
     border: 2px solid #bcbbbb;
     margin-bottom: 25px;
 }
-form .inptmsg{
+ form textarea.inptmsg{
     width: 390px;
     height: 135px;
     background-color:#2F2E41 ;

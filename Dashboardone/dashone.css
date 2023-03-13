@@ -5,7 +5,7 @@ body{
 }
 .dashboardonecontainer{
     width: 100%;
-    height: 656px;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,7 +13,7 @@ body{
 }
 .dashboardoneleft{
     width: 23%;
-    height: 656px;
+    height: 100vh;
     background-color: #3F3D56;
 }
 .fa.fa-bars.menu{
@@ -21,7 +21,7 @@ body{
   }
 .dashboardoneright{
     width: 77%;
-    height: 656px;
+    height: 100vh;
     background-color: #2F2E41;
 }
 .dashonelogo{
