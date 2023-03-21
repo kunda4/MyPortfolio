@@ -10,8 +10,8 @@ loginbutton.onclick = (e) =>{
 
 // conditions
 
-if(emailAddress == "" && passWord == "" ){
-    alert("Enter email and password");
+if(emailAddress == "" || passWord == "" ){
+    alert("Fill all input required!");
 }
  
 else {
@@ -26,6 +26,8 @@ else {
         if(user.token){
             localStorage.setItem("token", user.token);
             location.replace("../Dashboardone/dashone.html");
+        }else{
+            alert(user.message);
         }
 
     }).catch(err=>console.log(err));
