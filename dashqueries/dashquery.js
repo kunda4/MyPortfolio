@@ -1,51 +1,32 @@
+const token = localStorage.getItem("token");
+window.addEventListener("DOMContentLoaded", function () {
+  if (!token) {
+    window.location.replace("../login/login.html");
+  } else{
+    fetchQuerry();
+  }
+});
 
-const FormAdd = document.querySelector("#NewForm2");
-const postContact = async (e) =>{
-    e.preventDefault();
-    const doc = {
-        Name: FormAdd.contactname.value,
-        Email: FormAdd.contactemail.value,
-        Message: FormAdd.contactmessage.value,
-    }
-    await fetch("http://localhost:3000/Querries",{
-        method: "POST",
-        body: JSON.stringify(doc),
-        headers: {"Content-Type" : "application/json"}
-    });
-     Toastify({
-            text: "Your Message sent Successfully",
-            duration: 3000,
-            destination: "https://github.com/apvarun/toastify-js",
-            newWindow: true,
-            close: false,
-            gravity: "top", // `top` or `bottom`
-            position: "right", // `left`, `center` or `right`
-            stopOnFocus: true, // Prevents dismissing of toast on hover
-            style: {
-              background: "linear-gradient(to right, #333, #444)",
-            },
-            onClick: function(){} // Callback after click
-          }).showToast();
-    
-}
-FormAdd && FormAdd.addEventListener("submit",postContact);
-
+function logout() {
+    localStorage.removeItem("token");
+     window.location.replace("../index.html");
+  }
     
 const fetchQuerry = async () => {
-    const response = await fetch("http://localhost:3000/Querries");
+    const response = await fetch("https://clear-trousers-mite.cyclic.app/api/v1/querries");
     const Querries = await response.json();
     const ContactContainer = document.getElementById("Contactid");
 
    let templete = ""; 
-   Querries.forEach((contact) =>{
-    console.log(contact.Name);
+   Querries.data.forEach((contact, index) =>{
+    console.log(index);
     templete +=`
 
-    <tr><td>${contact.id}</td>
-    <td>${contact.Name}</td>
-    <td>${contact.Email}</td>
-    <td>${contact.Message}</td>
-    <td><img src="/images/Vector (1).png" alt="" onClick= "deleteContact(${contact.id});"></td> </tr>
+    <tr><td>${index+1}</td>
+    <td>${contact.name}</td>
+    <td>${contact.email}</td>
+    <td>${contact.querry}</td>
+    <td><img src="/images/Vector (1).png" alt="" onClick= "deleteContact('${contact._id}');"></td> </tr>
 
     `
    })
@@ -54,11 +35,13 @@ const fetchQuerry = async () => {
 }
 
 const deleteContact = async(Contact_id)=>{
-    await fetch(`http://localhost:3000/Querries/${Contact_id}`,{
+    await fetch(`https://clear-trousers-mite.cyclic.app/api/v1/querries/delete/${Contact_id}`,{
 
         method: "DELETE",
+        headers: {authorization:"Bearer "+token}
     })
-    return confirm("are you sure you want to delete this comments?");
+    alert("message deleted successfully!!!");
+    location.reload();
 }
 
  window.addEventListener("DOMContentLoaded", () => fetchQuerry());

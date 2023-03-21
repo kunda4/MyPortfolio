@@ -25,9 +25,9 @@ form.addEventListener("submit", (event) => {
   .then((data) => {
     if (data.ok){
       alert(data.message)}
-    // } else {
-    //   alert(data.errors.name)
-    // }
+     else {
+      alert(data.errors.name)
+    }
   })
   .catch(error => alert(error))
 });
