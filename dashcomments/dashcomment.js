@@ -1,3 +1,11 @@
+const token = localStorage.getItem("token");
+window.addEventListener("DOMContentLoaded", function () {
+  if (!token) {
+    window.location.replace("../login/login.html");
+  } else{
+    fetchBlog();
+  }
+});
 
 const FormAdd = document.querySelector("#NewForm3");
 const postComment = async (e) =>{

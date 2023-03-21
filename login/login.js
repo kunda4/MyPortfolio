@@ -4,26 +4,31 @@ loginbutton.onclick = (e) =>{
 
     //Cautch the value
 
-    const emailAddress= document.getElementById("Email").value;
+    const emailAddress= document.getElementById("email").value;
     const passWord = document.getElementById("password").value;
 
-// Get value in storage
 
-const Email = localStorage.getItem("Email");
-const Password = localStorage.getItem("Password");
-  
 // conditions
 
 if(emailAddress == "" && passWord == "" ){
     alert("Enter email and password");
 }
-else if(emailAddress == Email && passWord == Password){
-    alert("Login Successfully");
-    window.location = "/Dashboardone/dashone.html";
-}  
+ 
 else {
-    alert("Your Email or Password are incorect");
-    Go
+        fetch("https://clear-trousers-mite.cyclic.app/api/v1/login",{
+        method: "POST",
+        body: JSON.stringify({
+            email: emailAddress,
+            password: passWord
+        }),
+        headers: {"Content-Type" : "application/json"}
+    }).then((res)=> res.json()).then((user)=>{
+        if(user.token){
+            localStorage.setItem("token", user.token);
+            location.replace("../Dashboardone/dashone.html");
+        }
+
+    }).catch(err=>console.log(err));
 }
 
 }
