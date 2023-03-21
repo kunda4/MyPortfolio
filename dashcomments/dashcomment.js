@@ -7,21 +7,10 @@ window.addEventListener("DOMContentLoaded", function () {
   }
 });
 
-const FormAdd = document.querySelector("#NewForm3");
-const postComment = async (e) =>{
-    e.preventDefault();
-    const documnt = {
-        name: FormAdd.commentname.value,
-        comment: FormAdd.commentmessage.value,
-    }
-    await fetch("https://clear-trousers-mite.cyclic.app/api/v1/Comments",{
-        method: "POST",
-        body: JSON.stringify(documnt),
-        headers: {"Content-Type" : "application/json"}
-    });
-     alert("you Commented successfully!!");  
+function logout() {
+  localStorage.removeItem("token");
+   window.location.replace("../index.html");
 }
-FormAdd && FormAdd.addEventListener("submit",postComment);
 
 const fetchComment = async () => {
     const response = await fetch("https://clear-trousers-mite.cyclic.app/api/v1/Comments");
@@ -36,7 +25,7 @@ const fetchComment = async () => {
     <tr><td>${index+1}</td>
     <td>${comnt.name}</td>
     <td>${comnt.comment}</td>
-    <td><img src="/images/Vector (1).png" alt="" onClick= "deleteComment(${comnt._id});"></td></tr>
+    <td><img src="/images/Vector (1).png" alt="" onClick= "deleteComment('${comnt._id}');"></td></tr>
     `
    })
    if (CmntContainer) CmntContainer.innerHTML = templete;
@@ -67,7 +56,7 @@ const fetchCommentt = async () => {
 fetchCommentt();
 
 const deleteComment = async(comnt_id)=>{
-    await fetch(`https://clear-trousers-mite.cyclic.app/api/v1/Comments/${comnt_id}`,{
+    await fetch(`https://clear-trousers-mite.cyclic.app/api/v1/Comments/delete/${comnt_id}`,{
 
         method: "DELETE",
         headers: {authorization:"Bearer "+token}

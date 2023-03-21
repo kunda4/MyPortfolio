@@ -100,7 +100,7 @@ form{
     justify-content: center;
 
 }
-form input{
+form #blogtitle{
     width: 390px;
     height: 35px;
     background-color:#2F2E41 ;
@@ -108,9 +108,9 @@ form input{
     border: none;
   
 }
-form .adddescription input{
+form #blogdescription{
     width: 390px;
-    height: 135px;
+    height: 175px;
     background-color:#2F2E41 ;
     color: #F5F5F5;
     border: none;
