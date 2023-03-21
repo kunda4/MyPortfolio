@@ -105,10 +105,9 @@ margin-top: 110px;
 .btnhomepage{
     margin-top: 125px; 
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
-    gap: 100px;
+    justify-content: center
+   
 }
 
 .homelgnbtn a{
@@ -116,8 +115,8 @@ margin-top: 110px;
     text-decoration: none;
 }
 .homelgnbtn{
-    width: 164px;
-height: 45px;
+    width: 264px;
+height: 55px;
 
 background: #2F2E41;
 border: 3px solid #CE871C;

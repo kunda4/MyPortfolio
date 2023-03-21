@@ -40,7 +40,7 @@
                 </div>
                 <div class="dashlistaddlogout">
                 <img src="/images/ri_logout-circle-r-line.png" alt="">
-                <li><a href="/index.html">Logout</a></li>
+                <li><a href="#" onclick="logout();" >Logout</a></li>
                 </div>
             </ul>
 
@@ -52,11 +52,12 @@
             <div class="dashaddrightcontainer">
                 <div class="addtitle">
                     <label for="Title">Title</label>
-                    <input type="text" id="blogtitle" >
+                    <input type="text" id="blogtitle"  placeholder="type title of your blog">
                 </div>
                 <div class="adddescription">
-                    <label for="Description">Description"</label>
-                    <input type="text" id="blogdescription" >
+                    <label for="Description">Description</label>
+                    <textarea  placeholder="type content of your blog" required id="blogdescription" name="" id="" cols="30" rows="10"></textarea>
+                    <!-- <input type="text" id="blogdescription" > -->
                 </div>
 
                 <button class="dashboardaddbtn" type="submit" id="blogpostbtn">Post</button>
